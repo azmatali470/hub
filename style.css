@@ -1,0 +1,74 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: rgba(0,0,0,0.1)
+}
+
+table {
+  table-layout: auto;
+  width: 100%;
+  border: 2px solid #800080;
+  border-collapse: collapse;
+}
+
+tbody {
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif;
+  background-image: url("./assets/noise.png");
+}
+
+tbody td {
+  padding: 10px;
+}
+
+tbody tr {
+  background-color: #FB607F;
+}
+
+tbody tr:nth-child(even) {
+  background-color: pink;
+}
+
+th {
+  background-image: url("assets/leopardskin.jpg");
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  border: 2px solid #800080;
+  padding: 15px;
+}
+
+tfoot {
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  border: 2px solid #800080;
+  background-image: url("./assets/leopardskin.jpg");
+}
+
+tfoot td {
+  padding: 15px;
+  border: 2px solid #800080;
+}
+
+tfoot td:nth-child(1) {
+  text-align: right;
+}
+
+caption {
+  caption-side: bottom;
+  font-family: 'Rock Salt', cursive;
+  text-align: right;
+  padding: 15px;
+}
+
+footer {
+  text-align: right; 
+  margin-top: 10px;
+  font-family: 'Rock Salt', cursive;
+  color: rgba(0,0,0,0.5);
+}
